@@ -1,0 +1,43 @@
+﻿  static_array.cpp
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(10,1): error C2143: syntax error: missing ';' before 'public'
+  (compiling source file 'static_array.cpp')
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(10,1):
+  the template instantiation context (the oldest one first) is
+  	C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(20,2):
+  	see reference to class template instantiation 'StaticArray<T>' being compiled
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(16,10): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'static_array.cpp')
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(16,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'static_array.cpp')
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(16,36): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'static_array.cpp')
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(4,1): warning C4812: obsolete declaration style: please use 'StaticArray<T>::StaticArray' instead
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(11,1): error C2244: 'StaticArray<T>::insert': unable to match function definition to an existing declaration
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(10,22):
+  see declaration of 'StaticArray<T>::insert'
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(11,1):
+  definition
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(11,1):
+  'void StaticArray<T>::insert(int,int)'
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(11,1):
+  existing declarations
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(11,1):
+  'void StaticArray<T>::insert(T,int)'
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(14,18): error C2065: 'T': undeclared identifier
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(14,6): error C2923: 'StaticArray': 'T' is not a valid template type argument for parameter 'T'
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(14,18):
+  see declaration of 'T'
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(14,22): error C2955: 'StaticArray': use of class template requires template argument list
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(6,1):
+  see declaration of 'StaticArray'
+  
+C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.cpp(14,22): error C2509: 'remove': member function not declared in 'StaticArray'
+  C:\sd255081\learnings\data_structures\Array\src\array\array\static_array.h(6,1):
+  see declaration of 'StaticArray'
+  
